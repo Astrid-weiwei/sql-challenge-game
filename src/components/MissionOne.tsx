@@ -1,5 +1,4 @@
 import { useState } from 'react';
-import SchemaTable from './SchemaTable';
 
 const CORRECT_ANSWER =
   "SELECT incidentID, timestamp FROM Incident WHERE CAST(timestamp AS TIME) BETWEEN '02:00' AND '04:30';";
